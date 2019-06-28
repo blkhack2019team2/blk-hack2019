@@ -231,7 +231,7 @@
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                <img class="img-profile rounded-circle" src="img\girl.jpg">
+                <img class="img-profile rounded-circle" src="img/girl.jpg">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -355,16 +355,24 @@
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Individual Stock Performance</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Individual Sector Performance</h6>
                   <div class="dropdown no-arrow">
                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Stocks:</div>
-                      <a class="dropdown-item" href="#">APRN</a>
-                      <a class="dropdown-item" href="#">WIFI</a>
-                      <a class="dropdown-item" href="#">SNAP</a>
+                      <div class="dropdown-header">Sectors:</div>
+                      <a class="dropdown-item" href="#">Tech</a>
+                      <a class="dropdown-item" href="#">Finance</a>
+                      <a class="dropdown-item" href="#">Health</a>
+                      <a class="dropdown-item" href="#">Consumer Discretionary</a>
+                      <a class="dropdown-item" href="#">Consumer Staples</a>
+                      <a class="dropdown-item" href="#">Real Estate</a>
+                      <a class="dropdown-item" href="#">Energy</a>
+                      <a class="dropdown-item" href="#">Materials</a>
+                      <a class="dropdown-item" href="#">Utilities</a>
+                      <a class="dropdown-item" href="#">Industrials</a>
+                      <a class="dropdown-item" href="#">Communication Services</a>
                       <!-- <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
@@ -405,55 +413,82 @@
                   </div>
                   <div class="mt-4 text-center small">
                     <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> APRN
+                      <!-- <i class="fas fa-circle text-primary"></i> APRN -->
+                      GICS Sectors
                     </span>
-                    <span class="mr-2">
+                    <!-- <span class="mr-2">
                       <i class="fas fa-circle text-success"></i> WIFI
                     </span>
                     <span class="mr-2">
                       <i class="fas fa-circle text-info"></i> SNAP
-                    </span>
+                    </span> -->
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Content Row -->
-          <div class="row">
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Your Investment Strategy</h6>
+            </div>
+            <div class="card-body">
+              <p>iInvest is here to help you achieve your financial goals through investing. Designed specifically for new investors, our algorithm takes into account your sector interests, risk preferences, and financial capabilities to recommend stocks, bonds, and ETFs relevant and affordable to you.</p>
+              <!-- <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p> -->
+            </div>
+          </div>
 
-            <!-- Content Column -->
+          <!-- <div class="row">
+
             <div class="col-lg-6 mb-4">
 
-              <!-- Project Card Example -->
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">Sector Investments</h6>
                 </div>
                 <div class="card-body">
-                  <h4 class="small font-weight-bold">Tech<span class="float-right">20%</span></h4>
+                  <h4 class="small font-weight-bold">Tech<span class="float-right">15.71%</span></h4>
                   <div class="progress mb-4">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 15.71%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <h4 class="small font-weight-bold">Finance <span class="float-right">40%</span></h4>
+                  <h4 class="small font-weight-bold">Finance <span class="float-right">17%</span></h4>
                   <div class="progress mb-4">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 17%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <h4 class="small font-weight-bold">Health <span class="float-right">60%</span></h4>
+                  <h4 class="small font-weight-bold">Health <span class="float-right">11.4%</span></h4>
                   <div class="progress mb-4">
-                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 11.4%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <h4 class="small font-weight-bold">Consumer Goods <span class="float-right">80%</span></h4>
+                  <h4 class="small font-weight-bold">Consumer Discretionary<span class="float-right">10.68%</span></h4>
                   <div class="progress mb-4">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 10.68%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <h4 class="small font-weight-bold">Bonds <span class="float-right">80%</span></h4>
+                  <h4 class="small font-weight-bold">Consumer Staples<span class="float-right">8.48%</span></h4>
                   <div class="progress mb-4">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 8.48%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <h4 class="small font-weight-bold">International<span class="float-right">20%</span></h4>
+                  <h4 class="small font-weight-bold">Real Estate<span class="float-right">3.34%</span></h4>
                   <div class="progress mb-4">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 3.34%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Energy<span class="float-right">5.94%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 5.94%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Materials <span class="float-right">4.78%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 4.78%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Utilities<span class="float-right">3.34%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 3.34%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div><h4 class="small font-weight-bold">Industrials <span class="float-right">10.45%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 10.45%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Communication Services<span class="float-right">8.89%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 8.89%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -465,19 +500,17 @@
             <div class="col-lg-6 mb-4">
 
 
-              <!-- Approach -->
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">Your Investment Strategy</h6>
                 </div>
                 <div class="card-body">
                   <p>iInvest is here to help you achieve your financial goals through investing. Designed specifically for new investors, our algorithm takes into account your sector interests, risk preferences, and financial capabilities to recommend stocks, bonds, and ETFs relevant and affordable to you.</p>
-                  <!-- <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p> -->
                 </div>
               </div>
 
             </div>
-          </div>
+          </div> -->
 
         </div>
         <!-- /.container-fluid -->
