@@ -38,106 +38,69 @@
                 <h5 class="h6 text-gray-600 mb-2">How old are you?</h1>
                 <div class = "form-group row">
                   <div class="col-sm-3 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" id="age" placeholder="18">
+                    <input type="text" class="form-control form-control-user" id="age" placeholder="18" value = "18">
                   </div>
                 </div>
 
                 <h5 class="h6 text-gray-600 mb-2">What are you saving towards?</h1>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-primary">
-                        <input id = "higherEd" type="checkbox" name="options" autocomplete="off"> Higher Education
+                    <label class="btn btn-primary active">
+                        <input checked = true id = "higherEd" type="checkbox" name="options" autocomplete="off"> Higher Education
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "largerPurchases" type="checkbox" name="options" autocomplete="off"> Larger Purchases
+                        <input checked = false id = "largerPurchases" type="checkbox" name="options" autocomplete="off"> Larger Purchases
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "extraMoney" type="checkbox" name="options" autocomplete="off"> Extra Spending Money
+                        <input checked = false id = "extraMoney" type="checkbox" name="options" autocomplete="off"> Extra Spending Money
                     </label>
                   </div>
                 <br>
                 <br>
 
-                <h5 class="h6 text-gray-600 mb-2">If you could earn a dollar if a flipped coin lands on heads, how much would you pay to take that bet? Enter a value from 0 to 99 cents.</h1>
-                <div class = "form-group row">
-                  <div class="col-sm-3 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" id="coinRiskFactor" placeholder="0">
-                  </div>
-                </div>
-
-                <h5 class="h6 text-gray-600 mb-2">I plan to start taking money from my investments in:</h1>
+                <h5 class="h6 text-gray-600 mb-2">How soon do you plan to start taking money from your investments?</h1>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-primary">
-                        <input id = "takingMoney1" type="checkbox" name="options" autocomplete="off"> ASAP
+                        <input checked = false id = "takingMoney1" type="checkbox" name="options" autocomplete="off"> ASAP
+                    </label>
+                    <label class="btn btn-primary active">
+                        <input checked = true id = "takingMoney2" type="checkbox" name="options" autocomplete="off"> 1-2 Years
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "takingMoney2" type="checkbox" name="options" autocomplete="off"> 1-2 Years
+                        <input checked = false id = "takingMoney3" type="checkbox" name="options" autocomplete="off"> 3-4 Years
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "takingMoney3" type="checkbox" name="options" autocomplete="off"> 3-4 Years
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "takingMoney4" type="checkbox" name="options" autocomplete="off">5 or More Years
+                        <input checked = false id = "takingMoney4" type="checkbox" name="options" autocomplete="off">5 or More Years
                     </label>
                   </div>
                 <br>
                 <br>
 
-
-                <h5 class="h6 text-gray-600 mb-2">What sectors are you interested in?</h1>
+                <h5 class="h6 text-gray-600 mb-2">Which of the following situations would you rather have?</h1>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-primary">
-                        <input id = "techInterested" type="checkbox" name="options" autocomplete="off"> Tech
+                        <input id = "risk1" type="checkbox" name="options" autocomplete="off"> 75% chance of making $10
+                    </label>
+                    <label class="btn btn-primary active">
+                        <input checked = true id = "risk2" type="checkbox" name="options" autocomplete="off"> 50% chance of making $20
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "financeInterested" type="checkbox" name="options" autocomplete="off"> Finance
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "healthInterested" type="checkbox" name="options" autocomplete="off"> Health
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "consumerInterested" type="checkbox" name="options" autocomplete="off"> Consumer Goods
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "bondsInterested" type="checkbox" name="options" autocomplete="off"> Bonds
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "intlInterested" type="checkbox" name="options" autocomplete="off"> International
+                        <input id = "risk3" type="checkbox" name="options" autocomplete="off"> 25% chance of making $50
                     </label>
                   </div>
                 <br>
                 <br>
 
-                <h5 class="h6 text-gray-600 mb-2">What sectors are you NOT interested in?</h1>
-                  <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-primary">
-                        <input id = "techNInterested" type="checkbox" name="options" autocomplete="off"> Tech
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "financeNInterested" type="checkbox" name="options" autocomplete="off"> Finance
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "healthNInterested" type="checkbox" name="options" autocomplete="off"> Health
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "consumerNInterested" type="checkbox" name="options" autocomplete="off"> Consumer Goods
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "bondsNInterested" type="checkbox" name="options" autocomplete="off"> Bonds
-                    </label>
-                    <label class="btn btn-primary">
-                        <input id = "intlNInterested" type="checkbox" name="options" autocomplete="off"> International
-                    </label>
-                  </div>
-                <br>
-                <br>
-
-
-
-
-                  <h5 class="h6 text-gray-600 mb-2">What's your stock price limit? Enter a price from $0 - $1000</h1>
+                  <h5 class="h6 text-gray-600 mb-2">What is the highest price stock you would want to purchase? Enter a price from $0 - $1000</h1>
                   <div class = "form-group row">
                     <div class="col-sm-3 mb-3 mb-sm-0">
-                      <input type="text" class="form-control form-control-user" id="stockPriceLimit" placeholder="15">
+                      <input type="text" class="form-control form-control-user" id="stockPriceLimit" placeholder="15" value = "15">
+                    </div>
+                  </div>
+
+                  <h5 class="h6 text-gray-600 mb-2">How much money do you want to invest?</h1>
+                  <div class = "form-group row">
+                    <div class="col-sm-3 mb-3 mb-sm-0">
+                      <input type="text" class="form-control form-control-user" id="totalLimit" placeholder="100" value = "100">
                     </div>
                   </div>
 
@@ -174,6 +137,19 @@
   <script src="js/sb-admin-2.min.js"></script>
 
   <script src="js/onboarding.js"></script>
+
+  <script type="text/javascript">
+    function autoFill() {
+      document.getElementById("age").value = "18";
+      document.getElementById("stockPriceLimit").value = "15";
+      document.getElementById("totalLimit").value = "100";
+
+      }
+    }
+
+    autoFill();
+
+  </script>
 
 </body>
 

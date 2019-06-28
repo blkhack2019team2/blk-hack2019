@@ -339,17 +339,153 @@
           </div> -->
         </div>
 
-        <div class="card shadow mb-4">
-            <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Your Recommendations</h6>
-            </div>
-            <div class="card-body">
-              <div class="table-responsive">
-                <table class="table table-bordered" id="dvTable" width="100%" cellspacing="0">
-                </table>
+        <div class="row justify-content-around" >
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "techLimit" class="m-0 font-weight-bold text-primary">Tech Recommendations</h6>
               </div>
-            </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="techTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
           </div>
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "financeLimit" class="m-0 font-weight-bold text-primary">Finance Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="financeTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "healthLimit" class="m-0 font-weight-bold text-primary">Health Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="healthTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-around" >
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "discretionaryTech" class="m-0 font-weight-bold text-primary">Consumer Discretionary Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="discrestionaryTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "industrialLimit" class="m-0 font-weight-bold text-primary">Industrials Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="industrialTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "communicationLimit" class="m-0 font-weight-bold text-primary">Communication Services Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="communicationTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-around" >
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "staplesLimit" class="m-0 font-weight-bold text-primary">Consumer Staples Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="staplesTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "energyLimit" class="m-0 font-weight-bold text-primary">Energy Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="energyTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "materialsLimit" class="m-0 font-weight-bold text-primary">Materials Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="materialTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-around" >
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "utilitiesLimit" class="m-0 font-weight-bold text-primary">Utilities Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="utilityTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+          <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 id = "realEstateLimit" class="m-0 font-weight-bold text-primary">Real Estate Recommendations</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-bordered" id="realEstateTable" width="100%" cellspacing="0">
+                  </table>
+                </div>
+              </div>
+          </div>
+
+        </div>
 
 
 
@@ -433,11 +569,13 @@
         //ask the user for the max closing price
         var sector_str = sessionStorage.getItem("interestedSectors").split(", ");
         console.log(sector_str);
-        GenerateTable(generatePortfolio(data, .5, sessionStorage.getItem("spendingLimit"), sector_str));
+        GenerateTable(generatePortfolio(data, .5, sessionStorage.getItem("spendingLimit"), sector_str), "techTable");
+        GenerateTable(generatePortfolio(data, .5, sessionStorage.getItem("spendingLimit"), sector_str), "financeTable");
+
       });
 
 
-      function GenerateTable(options) {
+      function GenerateTable(options, tableID) {
           //Create a HTML Table element.
           var customers = options;
           customers.unshift(['Ticker', 'Current Price', 'One-Day Change', 'Sector']);
@@ -471,7 +609,7 @@
               }
           }
 
-          var dvTable = document.getElementById("dvTable");
+          var dvTable = document.getElementById(tableID);
           dvTable.innerHTML = "";
           dvTable.appendChild(table);
       }
