@@ -8,19 +8,9 @@ function loadProfileData() {
   var allSectors = ["Tech", "Finance", "Health", "Consumer Goods", "Bonds", "International"];
   var goals = ["Higher Education", "Larger Purchases", "Extra Spending Money"];
   //
-  var int = "";
-  var notInt = "";
-  for (var x = 0; x < 6; x++) {
-    console.log(typeof(interestedSectors[x]))
-    if (interestedSectors[x]) {
-      int += allSectors[x] + ", ";
-    }
-    if (notInterestedSectors[x]) {
-      notInt += allSectors[x] + ", ";
-    }
-  }
-  document.getElementById("favoriteSectors").innerHTML = int;
-  document.getElementById("notInterestedSectors").innerHTML = notInt;
+
+  document.getElementById("favoriteSectors").innerHTML = interestedSectors;
+  document.getElementById("notInterestedSectors").innerHTML = notInterestedSectors;
   document.getElementById("userGoal").innerHTML = goals[userGoal];
   document.getElementById("stockPriceLimit").innerHTML = sessionStorage.getItem("spendingLimit");
 

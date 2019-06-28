@@ -46,8 +46,23 @@ function saveProfileData() {
 
   var interestedSectors = [document.getElementById("techInterested").checked, document.getElementById("financeInterested").checked, document.getElementById("healthInterested").checked, document.getElementById("consumerInterested").checked, document.getElementById("bondsInterested").checked, document.getElementById("intlInterested").checked];
   var notInterestedSectors = [document.getElementById("techNInterested").checked, document.getElementById("financeNInterested").checked, document.getElementById("healthNInterested").checked, document.getElementById("consumerNInterested").checked, document.getElementById("bondsNInterested").checked, document.getElementById("intlNInterested").checked];
-  window.sessionStorage.setItem("interestedSectors", interestedSectors);
-  window.sessionStorage.setItem("notInterestedSectors", notInterestedSectors);
+  var allSectors = ["Tech", "Finance", "Health", "Consumer Goods", "Bonds", "International"];
+
+  var int = "";
+  var notInt = "";
+  for (var x = 0; x < 6; x++) {
+    if (interestedSectors[x]) {
+      int += allSectors[x] + ", ";
+    }
+    if (notInterestedSectors[x]) {
+      notInt += allSectors[x] + ", ";
+    }
+  }
+
+
+
+  window.sessionStorage.setItem("interestedSectors", int);
+  window.sessionStorage.setItem("notInterestedSectors", notInt);
 
   var spendingLimit = document.getElementById("stockPriceLimit").value;
   window.sessionStorage.setItem("spendingLimit", spendingLimit);

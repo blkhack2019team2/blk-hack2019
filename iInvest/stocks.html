@@ -259,7 +259,95 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
+          <div class="row">
+
+          <!-- Earnings (Monthly) Card Example -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">S&p 500</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">May 2019</div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Earnings (Monthly) Card Example -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">NASDAQ</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">$164</div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Earnings (Monthly) Card Example -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-info text-uppercase mb-1">DOW JONES</div>
+                    <div class="row no-gutters align-items-center">
+                      <div class="col-auto">
+                        <div id = "riskScore" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">45/100</div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="far fa-star fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pending Requests Card Example -->
+          <!-- <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Favorite Sectors</div>
+                    <div id = "favoriteSectors" class="h5 mb-0 font-weight-bold text-gray-800">Tech, Consumer Goods</div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="far fa-thumbs-down fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Your Recommendations</h6>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dvTable" width="100%" cellspacing="0">
+                </table>
+              </div>
+            </div>
+          </div>
+
+
 
         </div>
         <!-- /.container-fluid -->
@@ -317,6 +405,76 @@
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
   <script src="js/stock.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <script type="text/javascript">
+      var max_index = 199
+
+
+      function generatePortfolio(data, risk_metric, price_metric, sectors) {
+        var options = [];
+        for (i = 0; i < max_index; i++) {
+          var change = parseFloat(data[i]['Change'].substring(0,data[i]['Change'].length - 1));
+          var price = parseFloat(data[i]['CP'].substring(1, data[i]['CP'].length));
+          if (price < price_metric && change < risk_metric && sectors.includes(data[i]['Sector'])) {
+            options.push([data[i]['Symb'], data[i]['CP'], data[i]['Change'], data[i]['Sector']]);
+          }
+        }
+        console.log(options);
+        return options;
+      }
+
+
+      d3.csv("data.csv").then(function(data) {
+        //ask the user for the max closing price
+        var sector_str = sessionStorage.getItem("interestedSectors").split(", ");
+        console.log(sector_str);
+        GenerateTable(generatePortfolio(data, .5, sessionStorage.getItem("spendingLimit"), sector_str));
+      });
+
+
+      function GenerateTable(options) {
+          //Create a HTML Table element.
+          var customers = options;
+          customers.unshift(['Ticker', 'Current Price', 'One-Day Change', 'Sector']);
+          var table = document.createElement("TABLE");
+          table.style.width = '100%';
+
+          table.border = "1";
+
+          //Get the count of columns.
+          var columnCount = customers[0].length;
+
+          //Add the header row.
+          var row = table.insertRow(-1);
+          for (var i = 0; i < columnCount; i++) {
+              var headerCell = document.createElement("TH");
+              headerCell.innerHTML = customers[0][i];
+              row.appendChild(headerCell);
+          }
+
+          //Add the data rows.
+          for (var i = 1; i < customers.length; i++) {
+              row = table.insertRow(-1);
+              for (var j = 0; j < columnCount; j++) {
+                  var cell = row.insertCell(-1);
+                  cell.innerHTML = customers[i][j];
+                  // cell.onclick = linkCell();
+              }
+          }
+
+          var dvTable = document.getElementById("dvTable");
+          dvTable.innerHTML = "";
+          dvTable.appendChild(table);
+      }
+
+      function linkCell() {
+        window.open("http://google.com", '_blank');
+      }
+  </script>
+
+
+
 
 
 </body>
