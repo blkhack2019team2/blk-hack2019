@@ -45,13 +45,13 @@
                 <h5 class="h6 text-gray-600 mb-2">What are you saving towards?</h1>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-primary">
-                        <input checked=true id = "higherEd" type="checkbox" name="options" autocomplete="off"> Higher Education
+                        <input checked = true id = "higherEd" type="checkbox" name="options" autocomplete="off"> Higher Education
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "largerPurchases" type="checkbox" name="options" autocomplete="off"> Larger Purchases
+                        <input checked = false id = "largerPurchases" type="checkbox" name="options" autocomplete="off"> Larger Purchases
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "extraMoney" type="checkbox" name="options" autocomplete="off"> Extra Spending Money
+                        <input checked = false id = "extraMoney" type="checkbox" name="options" autocomplete="off"> Extra Spending Money
                     </label>
                   </div>
                 <br>
@@ -60,16 +60,16 @@
                 <h5 class="h6 text-gray-600 mb-2">How soon do you plan to start taking money from your investments?</h1>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-primary">
-                        <input id = "takingMoney1" type="checkbox" name="options" autocomplete="off"> ASAP
+                        <input checked = false id = "takingMoney1" type="checkbox" name="options" autocomplete="off"> ASAP
                     </label>
                     <label class="btn btn-primary">
                         <input checked = true id = "takingMoney2" type="checkbox" name="options" autocomplete="off"> 1-2 Years
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "takingMoney3" type="checkbox" name="options" autocomplete="off"> 3-4 Years
+                        <input checked = false id = "takingMoney3" type="checkbox" name="options" autocomplete="off"> 3-4 Years
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "takingMoney4" type="checkbox" name="options" autocomplete="off">5 or More Years
+                        <input checked = false id = "takingMoney4" type="checkbox" name="options" autocomplete="off">5 or More Years
                     </label>
                   </div>
                 <br>
@@ -140,9 +140,9 @@
 
   <script type="text/javascript">
     function autoFill() {
-      document.getElementById('input1').value = "18";
-      document.getElementById('input5').value = "15";
-      document.getElementById('input6').value = "100";
+      document.getElementById("age").value = "18";
+      document.getElementById("stockPriceLimit").value = "15";
+      document.getElementById("totalLimit").value = "100";
 
       }
     }
