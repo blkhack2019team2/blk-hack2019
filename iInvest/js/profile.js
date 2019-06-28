@@ -1,4 +1,5 @@
 function loadProfileData() {
+  console.log(sessionStorage.getItem("userAge"));
   document.getElementById("ageCard").innerHTML = sessionStorage.getItem("userAge");
   document.getElementById("riskScore").innerHTML = sessionStorage.getItem("userRiskFactor") + "/100";
   var interestedSectors = sessionStorage.getItem("interestedSectors");
