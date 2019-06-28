@@ -458,8 +458,12 @@
               row = table.insertRow(-1);
               for (var j = 0; j < columnCount; j++) {
                   var cell = row.insertCell(-1);
-                  cell.innerHTML = customers[i][j];
-                  // cell.onclick = linkCell();
+                  if (j == 0) {
+                    var q_link = "http://www.google.com/search?q=" + customers[i][j];
+                    cell.innerHTML = customers[i][j].link(q_link);
+                  } else {
+                    cell.innerHTML = customers[i][j];
+                  }
               }
           }
 
