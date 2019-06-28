@@ -21,7 +21,7 @@
 
 </head>
 
-<body id="page-top">
+<body onload="loadProfileData()" id="page-top">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -311,7 +311,7 @@
                     <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Risk Score</div>
                     <div class="row no-gutters align-items-center">
                       <div class="col-auto">
-                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">45/100</div>
+                        <div id = "riskScore" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">45/100</div>
                       </div>
 
                     </div>
@@ -331,7 +331,7 @@
                 <div class="row no-gutters align-items-center">
                   <div class="col mr-2">
                     <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Favorite Sectors</div>
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">Tech, Consumer Goods</div>
+                    <div id = "favoriteSectors" class="h5 mb-0 font-weight-bold text-gray-800">Tech, Consumer Goods</div>
                   </div>
                   <div class="col-auto">
                     <i class="far fa-thumbs-down fa-2x text-gray-300"></i>
@@ -354,7 +354,7 @@
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
                   <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Age</div>
-                  <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                  <div id = "ageCard" class="h5 mb-0 font-weight-bold text-gray-800">18</div>
                 </div>
                 <div class="col-auto">
                   <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -371,7 +371,7 @@
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
                   <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Investment Goals</div>
-                  <div class="h5 mb-0 font-weight-bold text-gray-800">Higher Education</div>
+                  <div id = "userGoal" class="h5 mb-0 font-weight-bold text-gray-800">Higher Education</div>
                 </div>
                 <div class="col-auto">
                   <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -390,7 +390,7 @@
                   <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Stock Price Tolerance</div>
                   <div class="row no-gutters align-items-center">
                     <div class="col-auto">
-                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">$15</div>
+                      <div id = "stockPriceLimit" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">$15</div>
                     </div>
 
                   </div>
@@ -410,7 +410,7 @@
               <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
                   <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Disliked Sectors</div>
-                  <div class="h5 mb-0 font-weight-bold text-gray-800">Entertainment</div>
+                  <div id = "notInterestedSectors" class="h5 mb-0 font-weight-bold text-gray-800">Entertainment</div>
                 </div>
                 <div class="col-auto">
                   <i class="far fa-thumbs-down fa-2x text-gray-300"></i>
@@ -479,6 +479,8 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
+  <script src="js/profile.js"></script>
+
 
 </body>
 
