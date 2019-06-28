@@ -45,7 +45,7 @@
                 <h5 class="h6 text-gray-600 mb-2">What are you saving towards?</h1>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-primary">
-                        <input id = "higherEd" type="checkbox" name="options" autocomplete="off"> Higher Education
+                        <input checked=true id = "higherEd" type="checkbox" name="options" autocomplete="off"> Higher Education
                     </label>
                     <label class="btn btn-primary">
                         <input id = "largerPurchases" type="checkbox" name="options" autocomplete="off"> Larger Purchases
@@ -63,7 +63,7 @@
                         <input id = "takingMoney1" type="checkbox" name="options" autocomplete="off"> ASAP
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "takingMoney2" type="checkbox" name="options" autocomplete="off"> 1-2 Years
+                        <input checked = true id = "takingMoney2" type="checkbox" name="options" autocomplete="off"> 1-2 Years
                     </label>
                     <label class="btn btn-primary">
                         <input id = "takingMoney3" type="checkbox" name="options" autocomplete="off"> 3-4 Years
@@ -78,13 +78,13 @@
                 <h5 class="h6 text-gray-600 mb-2">Which of the following situations would you rather have?</h1>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-primary">
-                        <input id = "higherEd" type="checkbox" name="options" autocomplete="off"> 75% chance of making $10
+                        <input id = "risk1" type="checkbox" name="options" autocomplete="off"> 75% chance of making $10
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "largerPurchases" type="checkbox" name="options" autocomplete="off"> 50% chance of making $20
+                        <input checked = true id = "risk2" type="checkbox" name="options" autocomplete="off"> 50% chance of making $20
                     </label>
                     <label class="btn btn-primary">
-                        <input id = "extraMoney" type="checkbox" name="options" autocomplete="off"> 25% chance of making $50
+                        <input id = "risk3" type="checkbox" name="options" autocomplete="off"> 25% chance of making $50
                     </label>
                   </div>
                 <br>
@@ -100,7 +100,7 @@
                   <h5 class="h6 text-gray-600 mb-2">How much money do you want to invest?</h1>
                   <div class = "form-group row">
                     <div class="col-sm-3 mb-3 mb-sm-0">
-                      <input type="text" class="form-control form-control-user" id="stockPriceLimit" placeholder="15">
+                      <input type="text" class="form-control form-control-user" id="totalLimit" placeholder="100">
                     </div>
                   </div>
 
@@ -137,6 +137,25 @@
   <script src="js/sb-admin-2.min.js"></script>
 
   <script src="js/onboarding.js"></script>
+
+  <script type="text/javascript">
+    function autoFill() {
+      document.getElementById('input1').value = "18";
+      document.getElementById('input5').value = "15";
+      document.getElementById('input6').value = "100";
+
+      var radioElements = document.getElementsByName("input3");
+
+      for (var i=0; i<radioElements.length; i++) {
+        if (radioElements[i].getAttribute('value') == 'Radio3') {
+          radioElements[i].checked = true;
+        }
+      }
+    }
+
+    autoFill();
+
+  </script>
 
 </body>
 
