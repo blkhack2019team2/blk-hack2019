@@ -7,11 +7,11 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["Tech", "Finance", "Health", "Consumer Discretionary", "Consumer Staples", "Real Estate", "Energy", "Materials", "Utilities", "Industrials", "Communication Services"],
     datasets: [{
-      data: [55, 30, 15],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+      data: [15.71, 17, 11.4, 10.68, 8.48, 3.34, 5.94, 4.78, 3.34, 10.45, 8.89],
+      backgroundColor: ['#17a673', '#2e59d9', 'rgb(255,71,19)', 'rgb(255,206,0)', 'rgb(252,155,179)', 'rgb(0,139,92)', 'rgb(144,98, 188)', 'rgb(192,11,40)', 'rgb(255,230,127)', 'rgb(155,215,190)', 'rgb(153,0,19)'],
+      // hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   },
