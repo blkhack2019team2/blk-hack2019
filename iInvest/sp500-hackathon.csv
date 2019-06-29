@@ -1,0 +1,484 @@
+Symbol,Symb,Name,Last,%Chg,Sector
+ F,F,Ford Motor Company,10.23,0.29%,Industrials
+ GE,GE,General Electric Company,10.5,0.96%,Industrials
+ MAT,MAT,Mattel Inc,11.21,2.94%,Consumer Discretionary 
+ FCX,FCX,Freeport-Mcmoran Inc,11.61,0.43%,
+ CTL,CTL,Centurylink,11.76,1.03%,Telecommunications
+ COTY,COTY,Coty Inc,13.4,1.90%,
+ NWSA,NWSA,News Cp Cl A,13.49,0.45%,Consumer Discretionary 
+ HBAN,HBAN,Huntington Bcshs,13.82,1.25%,Finance
+ NWS,NWS,News Cp Cl B,13.96,0.72%,Consumer Discretionary 
+ MRO,MRO,Marathon Oil Corp,14.21,0.07%,Energy
+ RF,RF,Regions Financial Corp,14.94,2.47%,Finance
+ HPE,HPE,Hewlett Packard Enterprise Comp,14.95,-0.13%,Consumer Staples
+ NWL,NWL,Newell Rubbermaid Inc,15.42,1.51%,Consumer Staples
+ AES,AES,The Aes Corp,16.76,1.33%,
+ PBCT,PBCT,People's United Finl,16.78,1.08%,Finance
+ HBI,HBI,Hanesbrands Inc,17.22,1.35%,Consumer Staples
+ KEY,KEY,Keycorp,17.75,2.36%,
+ GPS,GPS,Gap Inc,17.97,1.41%,Consumer Discretionary 
+ HST,HST,Host Marriott Financial Trust,18.22,1.17%,Consumer Discretionary 
+ KIM,KIM,Kimco Realty Corp,18.48,0.43%,
+ MYL,MYL,Mylan NV Ord Shs,19.04,0.37%,
+ JEF,JEF,Jefferies Financial Group Inc,19.23,1.96%,Finance
+ WU,WU,Western Union Company,19.89,1.07%,Finance
+ IVZ,IVZ,Invesco Plc,20.46,0.49%,Finance
+ HPQ,HPQ,Hewlett-Packard Company,20.79,0.24%,Consumer Staples
+ KMI,KMI,Kinder Morgan,20.88,2.30%,
+ M,M,Macy's Inc,21.46,-0.33%,Consumer Discretionary 
+ KR,KR,Kroger Company,21.71,1.50%,Consumer Staples
+ SYMC,SYMC,Symantec Corp,21.76,3.18%,Technology
+ UA,UA,Under Armour Inc Cl C,22.2,0.23%,Consumer Discretionary 
+ NOV,NOV,National-Oilwell,22.23,3.73%,
+ NBL,NBL,Noble Energy Inc,22.4,2.66%,Energy
+ IPG,IPG,Interpublic Group of Companies,22.59,2.40%,Finance
+ NLSN,NLSN,Nielsen Holdings Plc,22.6,1.21%,Finance
+ HAL,HAL,Halliburton Company,22.74,0.04%,
+ COG,COG,Cabot Oil & Gas Corp,22.96,1.32%,Energy
+ BHGE,BHGE,Baker Hughes A Ge Co. Cl A,24.63,-0.24%,
+ MOS,MOS,Mosaic Company,25.03,2.62%,Industrials
+ UAA,UAA,Under Armour,25.35,0.20%,Consumer Discretionary 
+ ARNC,ARNC,Arconic Inc,25.82,1.69%,
+ FTI,FTI,Technipfmc Plc,25.94,2.37%,Technology
+ LB,LB,L Brands Inc,26.1,-0.84%,Consumer Discretionary 
+ WY,WY,Weyerhaeuser Company,26.34,1.42%,
+ CAG,CAG,Conagra Brands Inc,26.52,4.29%,
+ LKQ,LKQ,LKQ Corp,26.61,1.33%,
+ JNPR,JNPR,Juniper Networks,26.63,-0.82%,Technology
+ FITB,FITB,Fifth Third Bncp,27.9,2.24%,
+ WMB,WMB,Williams Companies,28.04,1.82%,
+ DISCK,DISCK,Discovery Comm Inc,28.45,3.64%,Telecommunications
+ DVN,DVN,Devon Energy Corp,28.52,0.78%,Energy
+ MGM,MGM,MGM Resorts International,28.57,0.46%,Real Estate
+ CNP,CNP,Centerpoint Energy Inc,28.63,0.42%,Energy
+ NI,NI,NiSource Inc,28.8,0.66%,
+ APA,APA,Apache Corp,28.97,1.15%,
+ BAC,BAC,Bank of America Corp,29,2.80%,Finance
+ HRB,HRB,H&R Block,29.3,1.00%,Finance
+ VIAB,VIAB,Viacom Inc Cl B,29.87,2.05%,Telecommunications
+ AMD,AMD,Adv Micro Devices,30.37,-1.20%,Healthcare
+ PPL,PPL,PPL Corp,31.01,-0.58%,
+ KHC,KHC,Kraft Heinz CO,31.04,0.88%,Consumer Staples
+ DISCA,DISCA,Discovery Comm A,31.09,4.54%,Telecommunications
+ IRM,IRM,Iron Mountain Inc,31.3,1.36%,
+ DRE,DRE,Duke Realty Corp,31.61,1.28%,Real Estate
+ PHM,PHM,Pultegroup,31.62,0.22%,
+ TPR,TPR,Tapestry Inc,31.73,2.22%,
+ JWN,JWN,Nordstrom,31.86,1.30%,Consumer Discretionary 
+ HCP,HCP,HCP Inc,31.98,0.57%,
+ FAST,FAST,Fastenal Company,32.59,1.18%,
+ AAL,AAL,American Airlines Gp,32.61,1.43%,Materials
+ MAC,MAC,Macerich Company,33.49,0.15%,
+ T,T,AT&T Inc,33.51,1.61%,Telecommunications
+ UNM,UNM,Unumprovident Corp,33.55,1.98%,
+ FLR,FLR,Fluor Corp,33.69,2.21%,
+ SYF,SYF,Synchrony Financial,34.67,1.11%,Finance
+ CPRI,CPRI,Capri Holdings Ltd,34.68,2.00%,Finance
+ BEN,BEN,Franklin Resources,34.8,0.23%,Materials
+ TWTR,TWTR,Twitter Inc,34.9,0.43%,Technology
+ NRG,NRG,NRG Energy,35.12,3.20%,Energy
+ CFG,CFG,Citizens Financial Group Inc/Ri,35.36,1.70%,Finance
+ XRX,XRX,Xerox Corp,35.41,0.23%,Industrials
+ NKTR,NKTR,Nektar Therapeutics,35.58,2.60%,Healthcare
+ HOG,HOG,Harley-Davidson Inc,35.83,0.67%,Consumer Discretionary 
+ ROL,ROL,Rollins Inc,35.87,-2.07%,
+ WRK,WRK,Westrock Company,36.47,2.01%,
+ FOX,FOX,Fox Corp Cl B,36.53,2.18%,Telecommunications
+ FOXA,FOXA,Fox Corp Cl A,36.64,1.81%,Telecommunications
+ PNR,PNR,Pentair Ltd,37.2,1.95%,
+ PWR,PWR,Quanta Services,38.19,0.53%,
+ LEG,LEG,Leggett & Platt Inc,38.37,1.11%,
+ DISH,DISH,Dish Network Corp,38.41,0.63%,Telecommunications
+ NEM,NEM,Newmont Mining Corp,38.47,1.02%,Industrials
+ GM,GM,General Motors Company,38.53,0.55%,Industrials
+ MU,MU,Micron Technology,38.59,1.37%,Technology
+ MAS,MAS,Masco Corp,39.24,0.62%,
+ EBAY,EBAY,Ebay Inc,39.5,0.53%,Technology
+ SLB,SLB,Schlumberger N.V.,39.74,1.61%,
+ CPB,CPB,Campbell Soup Company,40.07,0.81%,Consumer Discretionary 
+ SCHW,SCHW,The Charles Schwab Corp,40.19,-0.02%,Finance
+ HRL,HRL,Hormel Foods Corp,40.54,0.67%,Materials
+ ADM,ADM,Archer Daniels Midland Company,40.8,0.57%,
+ JCI,JCI,Johnson Controls Intl,41.31,1.92%,
+ FL,FL,Footlocker Inc,41.92,1.95%,Consumer Discretionary 
+ BWA,BWA,Borgwarner Inc,41.98,-0.36%,
+ CMCSA,CMCSA,Comcast Corp A,42.28,0.67%,Telecommunications
+ SEE,SEE,Sealed Air Corp,42.78,1.21%,Industrials
+ FE,FE,Firstenergy Corp,42.81,0.71%,Energy
+ BSX,BSX,Boston Scientific Corp,42.98,2.50%,Healthcare
+ DHI,DHI,D.R. Horton,43.13,-0.21%,
+ IP,IP,International Paper Company,43.32,0.93%,Materials
+ PFE,PFE,Pfizer Inc,43.32,-0.25%,
+ MS,MS,Morgan Stanley,43.81,0.74%,Finance
+ BK,BK,Bank of New York Mellon Corp,44.15,1.75%,Finance
+ ETFC,ETFC,E*Trade Finl Corp,44.6,-0.87%,Finance
+ UDR,UDR,United Dominion Realty Trust,44.89,0.70%,Finance
+ AMAT,AMAT,Applied Materials,44.91,0.49%,Materials
+ BMY,BMY,Bristol-Myers Squibb Company,45.35,0.55%,
+ ZION,ZION,Zions Bancorporation,45.98,2.18%,
+ HFC,HFC,Hollyfrontier Corp,46.28,2.30%,
+ TRIP,TRIP,Tripadvisor Inc,46.29,-0.62%,Consumer Discretionary 
+ CCL,CCL,Carnival Corp,46.55,1.37%,Consumer Discretionary 
+ CF,CF,Cf Industries Holdings,46.71,-0.91%,Finance
+ CAH,CAH,Cardinal Health,47.1,1.05%,Healthcare
+ STX,STX,Seagate Tech Ord Shs,47.12,0.86%,Technology
+ AOS,AOS,Smith [A.O.] Corp,47.16,2.34%,
+ ATVI,ATVI,Activision Blizzard,47.2,-0.17%,Consumer Discretionary 
+ WFC,WFC,Wells Fargo & Company,47.32,2.23%,Finance
+ MO,MO,Altria Group,47.35,-1.15%,
+ KSS,KSS,Kohl's Corp,47.55,1.56%,Consumer Discretionary 
+ WDC,WDC,Western Digital Cp,47.55,6.73%,Telecommunications
+ PRGO,PRGO,Perrigo Company,47.62,2.19%,
+ INTC,INTC,Intel Corp,47.87,0.86%,Technology
+ EXC,EXC,Exelon Corp,47.94,0.80%,
+ HOLX,HOLX,Hologic Inc,48.02,0.65%,
+ LEN,LEN,Lennar Corp,48.46,0.06%,
+ LNT,LNT,Alliant Energy Corp,49.08,0.31%,Energy
+ BBT,BBT,BB&T Corp,49.13,1.97%,
+ MET,MET,Metlife Inc,49.67,1.06%,Healthcare
+ CBS,CBS,CBS Corp,49.9,2.21%,Telecommunications
+ AIV,AIV,Apartment Investment and Management,50.12,0.78%,
+ OXY,OXY,Occidental Petroleum Corp,50.28,1.07%,
+ HP,HP,Helmerich & Payne,50.62,1.77%,
+ LUV,LUV,Southwest Airlines Company,50.78,0.08%,Materials
+ KO,KO,Coca-Cola Company,50.92,-0.31%,Consumer Staples
+ CBRE,CBRE,CBRE Group Inc,51.3,0.92%,
+ USB,USB,U.S. Bancorp,52.4,0.81%,
+ GIS,GIS,General Mills,52.52,0.57%,Consumer Staples
+ FLS,FLS,Flowserve Corp,52.69,2.23%,
+ TJX,TJX,TJX Companies,52.88,unch,
+ TXT,TXT,Textron Inc,53.04,2.26%,
+ AIG,AIG,American International Group,53.28,0.43%,
+ K,K,Kellogg Company,53.57,0.71%,Consumer Staples
+ NCLH,NCLH,Norwegian Cruise Ord,53.63,3.45%,
+ MDLZ,MDLZ,Mondelez Intl Inc,53.9,-0.41%,
+ FLIR,FLIR,Flir Systems Inc,54.1,1.31%,
+ CVS,CVS,CVS Corp,54.49,-0.46%,Healthcare
+ L,L,Loews Corp,54.67,1.67%,
+ WBA,WBA,Walgreens Boots Alliance,54.67,0.28%,Healthcare
+ CSCO,CSCO,Cisco Systems Inc,54.73,-1.79%,Technology
+ AFL,AFL,Aflac Incorporated,54.81,0.48%,Healthcare
+ NUE,NUE,Nucor Corp,55.1,0.97%,
+ DXC,DXC,Dxc Technology Company,55.15,2.51%,
+ SO,SO,Southern Company,55.28,0.36%,
+ BF.B,BF.B,Brown Forman Inc Cl B,55.43,0.27%,Real Estate
+ HIG,HIG,Hartford Financial Services Group,55.72,0.58%,
+ MPC,MPC,Marathon Petroleum Corp,55.88,2.78%,
+ TAP,TAP,Molson Coors Brewing Company,56,1.21%,
+ STT,STT,State Street Corp,56.06,0.74%,Finance
+ DAL,DAL,Delta Air Lines Inc,56.75,-0.12%,
+ ORCL,ORCL,Oracle Corp,56.97,0.35%,
+ RHI,RHI,Robert Half International Inc,57.01,0.94%,
+ FBHS,FBHS,Fortune Brands Home & Security,57.13,2.09%,
+ VZ,VZ,Verizon Communications Inc,57.13,-0.21%,
+ CMS,CMS,Cms Energy Corp,57.91,0.70%,
+ PFG,PFG,Principal Financial Group Inc,57.92,1.97%,
+ XRAY,XRAY,Dentsply Sirona Inc,58.36,1.27%,
+ PEG,PEG,Public Service Enterprise Group Inc,58.82,0.05%,
+ XEC,XEC,Cimarex Energy CO,59.33,2.72%,
+ XEL,XEL,XCEL Energy Inc,59.49,0.35%,
+ MXIM,MXIM,Maxim Integrated,59.82,-0.55%,
+ EVRG,EVRG,Evergy Inc,60.15,0.13%,
+ COP,COP,Conocophillips,61,-0.44%,
+ NTAP,NTAP,Netapp Inc,61.7,1.15%,
+ STI,STI,Suntrust Banks,62.85,2.18%,
+ LW,LW,Lamb Weston Holdings Inc,63.36,2.69%,
+ CTSH,CTSH,Cognizant Tech Sol,63.39,0.52%,
+ HES,HES,Hess Corp,63.57,-1.12%,
+ INFO,INFO,IHS Markit Ltd,63.72,0.98%,
+ MNST,MNST,Monster Beverage Cp,63.83,0.41%,
+ ALK,ALK,Alaska Air Group,63.91,1.27%,Industrials
+ VNO,VNO,Vornado Realty Trust,64.1,0.66%,
+ LNC,LNC,Lincoln National Corp,64.45,2.29%,
+ QRVO,QRVO,Qorvo Inc,66.61,-0.67%,
+ EMR,EMR,Emerson Electric Company,66.72,0.94%,
+ REG,REG,Regency Centers Corp,66.74,-0.24%,
+ GILD,GILD,Gilead Sciences Inc,67.56,0.72%,
+ VTR,VTR,Ventas Inc,68.35,-1.54%,
+ OKE,OKE,Oneok Inc,68.81,2.09%,
+ O,O,Realty Income Corp,68.97,-0.65%,
+ BBY,BBY,Best Buy CO,69.73,1.84%,
+ HSIC,HSIC,Henry Schein Inc,69.9,1.08%,
+ BLL,BLL,Ball Corp,69.99,2.78%,
+ C,C,Citigroup Inc,70.03,2.76%,
+ ALB,ALB,Albemarle Corp,70.41,1.28%,
+ APC,APC,Anadarko Petroleum Corp,70.56,0.04%,
+ SYY,SYY,Sysco Corp,70.72,0.40%,
+ CDNS,CDNS,Cadence Design Sys,70.81,0.91%,
+ PCAR,PCAR,Paccar Inc,71.66,1.37%,
+ CL,CL,Colgate-Palmolive Company,71.67,-0.65%,
+ WAB,WAB,Wabtec Corp,71.76,3.89%,
+ CMA,CMA,Comerica Inc,72.64,1.78%,
+ ABBV,ABBV,Abbvie Inc,72.72,3.89%,Healthcare
+ CHD,CHD,Church & Dwight Company,73.06,-0.11%,
+ CERN,CERN,Cerner Corp,73.3,2.10%,
+ A,A,Agilent Technologies,74.67,2.02%,Healthcare
+ CPRT,CPRT,Copart Inc,74.74,1.88%,
+ AEE,AEE,Ameren Corp,75.11,0.62%,
+ ES,ES,Eversource Energy,75.76,0.46%,
+ QCOM,QCOM,Qualcomm Inc,76.07,0.85%,
+ FTNT,FTNT,Fortinet Inc,76.83,0.10%,
+ SWKS,SWKS,Skyworks Solutions,77.27,0.42%,
+ CSX,CSX,CSX Corp,77.37,1.20%,
+ EMN,EMN,Eastman Chemical Company,77.83,1.03%,
+ PM,PM,Philip Morris International Inc,78.53,0.78%,
+ GRMN,GRMN,Garmin Ltd,79.8,-0.59%,
+ PGR,PGR,Progressive Corp,79.93,0.30%,
+ PLD,PLD,Prologis Inc,80.1,0.93%,
+ AKAM,AKAM,Akamai Technologies,80.14,0.91%,Information technology
+ SLG,SLG,SL Green Realty Corp,80.37,0.98%,
+ TSN,TSN,Tyson Foods,80.74,1.37%,
+ APTV,APTV,Aptiv Plc,80.83,-0.28%,
+ FTV,FTV,Fortive Corp,81.52,1.41%,
+ WELL,WELL,Welltower Inc,81.53,-0.12%,
+ BAX,BAX,Baxter International Inc,81.9,0.28%,
+ OMC,OMC,Omnicom Group Inc,81.95,1.17%,
+ PAYX,PAYX,Paychex Inc,82.29,0.23%,
+ FMC,FMC,FMC Corp,82.95,-0.17%,
+ ETN,ETN,Eaton Corp,83.28,0.68%,
+ WEC,WEC,Wisconsin Energy Corp,83.37,0.35%,
+ XYL,XYL,Xylem Inc,83.64,2.17%,
+ SBUX,SBUX,Starbucks Corp,83.83,0.32%,
+ MRK,MRK,Merck & Company,83.85,0.02%,
+ NKE,NKE,Nike Inc,83.95,0.35%,
+ ABT,ABT,Abbott Laboratories,84.1,0.49%,Healthcare
+ CHRW,CHRW,C.H. Robinson Ww,84.35,0.21%,
+ JEC,JEC,Jacobs Engineering Group Inc,84.39,0.45%,
+ RJF,RJF,Raymond James Financial,84.55,2.48%,
+ INCY,INCY,Incyte Corp,84.96,0.28%,
+ VLO,VLO,Valero Energy Corp,85.61,2.00%,
+ ICE,ICE,Intercontinental Exchange,85.94,0.50%,
+ LYB,LYB,Lyondellbasell Industries NV,86.13,-0.59%,
+ TGT,TGT,Target Corp,86.61,0.86%,
+ RSG,RSG,Republic Services,86.64,0.07%,
+ MCHP,MCHP,Microchip Technology,86.7,-0.50%,
+ KMX,KMX,Carmax Inc,86.83,-0.03%,
+ VFC,VFC,V.F. Corp,87.35,0.75%,
+ UAL,UAL,United Continental Holdings,87.55,1.30%,
+ AJG,AJG,Arthur J. Gallagher & CO,87.59,1.92%,
+ ED,ED,Consolidated Edison Company of New York,87.68,0.48%,
+ AEP,AEP,American Electric Power Company,88.01,0.13%,
+ DUK,DUK,Duke Energy Corp,88.24,-0.35%,
+ TMK,TMK,Torchmark Corp,89.46,1.15%,
+ KEYS,KEYS,Keysight Technologies Inc Comm,89.81,3.09%,
+ NTRS,NTRS,Northern Trust Corp,90,2.46%,
+ COF,COF,Capital One Financial Corp,90.74,1.58%,
+ FISV,FISV,Fiserv Inc,91.16,0.36%,
+ JBHT,JBHT,J B Hunt Transport,91.41,1.92%,
+ AMG,AMG,Affiliated Managers Group,92.14,0.80%,Healthcare
+ CELG,CELG,Celgene Corp,92.44,0.10%,
+ PSX,PSX,Phillips 66,93.54,1.95%,
+ TIF,TIF,Tiffany & CO,93.64,1.80%,
+ PNW,PNW,Pinnacle West Capital Corp,94.09,0.37%,
+ PVH,PVH,Phillips-Van Heusen Corp,94.64,1.46%,
+ PKG,PKG,Packaging Corp of America,95.32,1.45%,
+ TEL,TEL,Te Connectivity Ltd,95.78,0.65%,
+ NDAQ,NDAQ,Nasdaq Inc,96.17,unch,
+ PKI,PKI,Perkinelmer,96.34,1.41%,
+ MDT,MDT,Medtronic Inc,97.39,-0.09%,
+ FRC,FRC,First Republic Bank,97.65,1.87%,
+ HLT,HLT,Hilton Inc,97.74,1.25%,
+ ROST,ROST,Ross Stores Inc,99.12,-1.41%,
+ MMC,MMC,Marsh & Mclennan Companies,99.75,0.42%,
+ LOW,LOW,Lowe's Companies,100.91,1.56%,
+ PRU,PRU,Prudential Financial Inflation Retail,101,1.78%,
+,SLVP,iShares MSCIGlobal Silver Miners ETF,9.34,9.34,Materials
+,ICLN,iShares Global Clean Energy ETF,10.52,10.52,Energy
+,ICOL,iShares MSCIColombia ETF,13.22,13.22,International
+,UAE,iShares MSCI UAEETF,13.34,13.34,International
+,IAU,iShares Gold Trust,13.48,13.48,Materials
+,SLV,iShares Silver Trust,14.32,14.32,Materials
+,IPFF,iShares International Preferred Stock ETF,15.05,15.05,International
+,GSG,iShares S&P GSCICommodity-Indexed Trust,15.88,15.88,International
+,EWZS,iShares MSCI Brazil Small-Cap ETF,16.58,16.58,International
+,HEWW,iShares Currency Hedged MSCIMexico ETF,16.86,16.86,International
+,HEWI,iShares Currency Hedged MSCI Italy ETF,17.2,17.2,International
+,QAT,iShares MSCI Qatar ETF,17.85,17.85,International
+,EUFN,iShares MSCIEurope Financials ETF,17.99,17.99,International
+,EWK,iShares MSCIBelgium ETF,18.04,18.04,International
+,EWO,iShares MSCIAustria ETF,19.66,19.66,International
+,FILL,iShares MSCIGlobal Energy Producers ETF,20.22,20.22,Energy
+,RING,iShares MSCIGlobal Gold Miners ETF,20.36,20.36,Industrial 
+,IEZ,iShares U.S. Oil Equipment & Services ETF,21.34,21.34,Energy
+,HEWP,iShares Currency Hedged MSCI Spain ETF,21.82,21.82,International
+,EWA,iShares MSCI-Australia ETF,22.44,22.44,International
+,IVLU,iShares Edge MSCIIntl Value Factor ETF,22.8,22.8,Finance
+,TUR,iShares MSCITurkey ETF,23.41,23.41,International
+,EPOL,iShares MSCIPoland ETF,23.52,23.52,International
+,IEFN,iShares Evolved U.S. Financials ETF,23.57,23.57,Finance
+,IDRV,iShares Self-Driving EV and Tech ETF,23.74,23.74,Technology
+,EWJV,iShares MSCI Japan Value ETF,24.19,24.19,International
+,HEWU,iShares Currency Hedged MSCI United Kingdom ETF,24.34,24.34,International
+,IRBO,iShares Robotics and Artificial Intelligence ETF,24.35,24.35,Technology
+,EWS,iShares MSCI Singapore ETF,24.4,24.4,International
+,IGBH,iShares Interest Rate Hedged Long-Term Corporate Bond ETF,24.43,24.43,Bond
+,IBCE,iShares iBonds Mar 2023 Corporate ex-Financials ETF,24.45,24.45,Bond
+,ENOR,iShares MSCI Norway ETF,24.48,24.48,International
+,IBCD,iShares iBonds Mar 2020 Corporate ex-Financials ETF,24.59,24.59,Bond
+,IBDK,iShares iBonds Dec 2019 Term Corporate ETF,24.86,24.86,Bond
+,IBDR,iShares iBonds Dec 2026 Term Corporate ETF,24.89,24.89,Bond
+,IBDM,iShares iBonds Dec 2021 Corporate ETF,24.91,24.91,Bond
+,EMBH,iShares Interest Rate Hedged Emerging Markets Bond ETF,24.93,24.93,International
+,IYLD,iShares Morningstar Multi-Asset Income Index ETF,24.97,24.97,Finance
+,IEIH,iShares Evolved U.S. Innovative Healthcare ETF,25.08,25.08,Health
+,IBHA,iShares iBonds 2021 Term High Yield and Income ETF,25.1,25.1,Finance
+,IHAK,iShares Cybersecurity and Tech ETF,25.12,25.12,Technology
+,IBHC,iShares iBonds 2023 Term High Yield and Income ETF,25.14,25.14,Bond
+,IBHB,iShares iBonds 2022 Term High Yield and Income ETF,25.15,25.15,Bond
+,BYLD,iShares Yield Optimized Bond ETF,25.18,25.18,Bond
+,IBDN,iShares iBonds Dec 2022 Corporate ETF,25.19,25.19,Bond
+,IBDS,iShares iBonds Dec 2027 Term Corporate ETF,25.27,25.27,Bond
+,IBHE,iShares iBonds 2025 Term High Yield and Income ETF,25.27,25.27,Bond
+,SUSB,iShares ESG 1-5 Year USDCorporate Bond ETF,25.31,25.31,Bond
+,IBDL,iShares iBonds Dec 2020 Corporate ETF,25.33,25.33,Bond
+,IBDO,iShares iBonds Dec 2023 Corporate ETF,25.34,25.34,Bond
+,BDP,iShares iBonds Dec 2024 Corporate ETF,25.35,25.35,Bond
+,IBHD,iShares iBonds 2024 Term High Yield and Income ETF,25.36,25.36,Bond
+,IBMH,iShares iBonds Sep 2019 Term Muni Bond ETF,25.44,25.44,Bond
+,HEEM,iShares Currency Hedged MSCI Emerging Markets ETF,25.44,25.44,International
+,EUMV,iShares Edge MSCI Min Vol Europe ETF,25.45,25.45,International
+,IBDQ,iShares iBonds Dec 2025 Corporate ETF,25.48,25.48,Bond
+,IBMI,iShares iBonds Sep 2020 AMT-Free Muni Bond ETF,25.56,25.56,Bond
+,EIDO,iShares MSCI Indonesia ETF,25.61,25.61,International
+,IBMO,iShares iBonds Dec 2026 Term Muni Bond ETF,25.62,25.62,Bond
+,HEWY,iShares Currency Hedged MSCI South Korea ETF,25.64,25.64,International
+,IBMP,iShares iBonds Dec 2027 Term Muni Bond ETF,25.65,25.65,Bond
+,SUSC,iShares ESG USDCorporate Bond ETF,25.68,25.68,Bond
+,IBML,iShares iBonds Dec 2023 Term Muni Bond ETF,25.7,25.7,Bond
+,EWH,iShares MSCI Hong Kong ETF,25.73,25.73,International
+,GOVT,iShares U.S. Treasury Bond ETF,25.74,25.74,Bond
+,LQDI,iShares Inflation Hedged Corporate Bond ETF,25.74,25.74,Bond
+,IBMQ,iShares iBonds Dec 2028 Term Muni Bond ETF,25.75,25.75,Bond
+,IBMJ,iShares iBonds Dec 2021 AMT-Free Muni Bond ETF,25.78,25.78,Bond
+,DYNF,BlackRock U.S. Equity Factor Rotation ETF,25.87,25.87,Finance
+,IDNA,iShares Genomics Immunology and Healthcare ETF,25.95,25.95,Health
+,INTF,iShares Edge MSCIMultifactor Intl ETF,26.02,26.02,Finance
+,ISZE,iShares Edge MSCI Intl Size Factor ETF,26.07,26.07,Finance
+,IBMK,iShares iBonds Dec 2022 AMT-Free Muni Bond ETF,26.09,26.09,Bond
+,IBDC,iShares iBonds Mar 2020 Corporate ETF,26.1,26.1,Bond
+,ESML,iShares ESG MSCI USASmall-Cap ETF,26.19,26.19,Finance
+,BMM,iShares iBonds Dec 2024 Term Muni Bond ETF,26.24,26.24,Bond
+,MIDF,iShares Edge MSCIMultifactor USA Mid-Cap ETF,26.32,26.32,Finance
+,HEWC,iShares Currency Hedged MSCI Canada ETF,26.41,26.41,International
+,REET,iShares Global REIT ETF,26.45,26.45,Real Estate
+,FALN,iShares U.S. Fallen Angels USD Bond ETF,26.5,26.5,Bond
+,HAUD,iShares Currency Hedged MSCI Australia ETF,26.54,26.54,International
+,IBDD,iShares iBonds Mar 2023 Corporate ETF,26.67,26.67,Bond
+,IFRA,iShares U.S. Infrastructure ETF,26.67,26.67,Health
+,DEWJ,iShares Adaptive Currency Hedged MSCIJapan ETF,26.78,26.78,International
+,IECS,iShares Evolved U.S. Consumer Staples ETF,26.78,26.78,Consumer Staples
+,HAWX,iShares Currency Hedged MSCI ACWI ex U.S. ETF,26.89,26.89,Finance
+,IBMN,iShares iBonds Dec 2025 Term Muni Bond ETF,26.89,26.89,Bond
+,IBDT,iShares iBonds Dec 2028 Term Corporate ETF,26.95,26.95,Bond
+,HJPX,iShares Currency Hedged JPX-Nikkei 400 ETF,26.97,26.97,International
+,AGT,iShares MSCI Argentina and Global Exposure ETF,27.08,27.08,International
+,IEME,iShares Evolved U.S. Media and Entertainment ETF,27.09,27.09,Consumer Discretionary
+,HEWG,iShares Currency Hedged MSCI Germany ETF,27.24,27.24,International
+,EWI,iShares MSCI Italy ETF,27.32,27.32,International
+,DIVB,iShares U.S. Dividend and Buyback ETF,27.48,27.48,Finance
+,EWG,iShares MSCI Germany ETF,27.66,27.66,International
+,AMCA,iShares Russell 1000 Pure U.S. Revenue ETF,27.88,27.88,Finance
+,DEZU,iShares Adaptive Currency Hedged MSCIEurozone ETF,28,28,International
+,DEFA,iShares Adaptive Currency Hedged MSCIEAFE ETF,28.06,28.06,International
+,VEGI,iShares MSCI Global Agriculture Producers ETF,28.17,28.17,Industrials
+,CNYA,iShares MSCI China A ETF,28.24,28.24,International
+,EWC,iShares MSCI Canada ETF,28.47,28.47,International
+,HSCZ,iShares Currency Hedged MSCI EAFESmall Cap ETF,28.47,28.47,International
+,ISCF,iShares Edge MSCIMultifactor Intl Small-Cap ETF,28.72,28.72,Finance
+,IEDI,iShares Evolved U.S. Discretionary Spending ETF,28.73,28.73,Consumer Discretionary
+,IEHS,iShares Evolved U.S. Healthcare Staples ETF,28.74,28.74,Health
+,EWP,iShares MSCI Spain ETF,28.81,28.81,International
+,IETC,iShares Evolved U.S. Technology ETF,28.81,28.81,Technology
+,ACWF,iShares Edge MSCIMultifactor Global ETF,28.88,28.88,International
+,EMIF,iShares Emerging Markets Infrastructure ETF,29.09,29.09,International
+,HEWL,iShares Currency Hedged MSCISwitzerland ETF,29.21,29.21,International
+,IYZ,iShares U.S. Telecommunications ETF,29.32,29.32,Telecommunications
+,FM,iShares MSCI Frontier 100 ETF,29.46,29.46,Finance
+,IMTM,iShares Edge MSCI Intl Momentum Factor ETF,29.56,29.56,International
+,HEFA,iShares Currency Hedged MSCI EAFE ETF,29.61,29.61,International
+,EWM,iShares MSCI Malaysia ETF,29.71,29.71,International
+,IFGL,iShares International Developed Real Estate ETF,29.86,29.86,Real Estate
+,IQLT,iShares Edge MSCI Intl Quality Factor ETF,29.99,29.99,Finance
+,HEWJ,iShares Currency Hedged MSCI Japan ETF,30.05,30.05,International
+,PICK,iShares MSCI Global Select Metals & Mining Producers ETF,30.17,30.17,Industrials
+,EWQ,iShares MSCI France ETF,30.4,30.4,International
+,IDV,iShares International Select Dividend ETF,30.44,30.44,Finance
+,IGE,iShares North American Natural Resources ETF,30.44,30.44,Utilities
+,HEZU,iShares Currency Hedged MSCI Eurozone ETF,30.45,30.45,International
+,EWN,iShares MSCINetherlands ETF,30.5,30.5,International
+,EWD,iShares MSCI Sweden ETF,30.71,30.71,International
+,LRGF,iShares Edge MSCIMultifactor USA ETF,31.3,31.3,Finance
+,EWU,iShares MSCI United Kingdom ETF,32.15,32.15,International
+,IXC,iShares Global Energy ETF,32.43,32.43,Energy
+,KSA,iShares MSCI Saudi Arabia ETF,32.6,32.6,International
+,EWJE,iShares MSCI Japan Equal Weighted ETF,32.74,32.74,International
+,SMMV,iShares Edge MSCIMin Vol USA Small-Cap ETF,32.83,32.83,Finance
+,COMT,iShares Commodities Select Strategy ETF,32.87,32.87,Finance
+,ESGE,iShares ESG MSCI EM ETF,33.87,33.87,Finance
+,ILF,iShares Latin American 40 ETF,33.99,33.99,International
+,IYE,iShares U.S. Energy ETF,34.27,34.27,Energy
+,EWT,iShares MSCI Taiwan ETF,34.67,34.67,International
+,AOK,iShares Core Conservative Allocation ETF,35.23,35.23,Finance
+,INDA,iShares MSCI India ETF,35.33,35.33,International
+,EPHE,iShares MSCIPhilippines ETF,35.78,35.78,International
+,IFEU,iShares Europe Developed Real Estate ETF,35.92,35.92,Real Estate
+,AXJV,iShares Edge MSCIMin Vol Asia ex Japan ETF,35.95,35.95,International
+,PFF,iShares Preferred and Income Securities ETF,36.81,36.81,Finance
+,EPU,iShares MSCI Peru ETF,37.01,37.01,International
+,ITB,iShares U.S. Home Construction ETF,37.05,37.05,Utilities
+,EWL,iShares MSCISwitzerland ETF,37.29,37.29,International
+,EFNL,iShares MSCI Finland ETF,37.47,37.47,International
+,EWUS,iShares MSCI United Kingdom Small-Cap ETF,37.55,37.55,International
+,DGRO,iShares Core Dividend Growth ETF,37.84,37.84,Finance
+,WPS,iShares International Property ETF,38.07,38.07,Real Estate
+,XT,iShares Exponential Technologies ETF,38.09,38.09,Technology
+,NDY,iShares India 50 ETF,38.56,38.56,International
+,SMIN,iShares MSCI India Small-Cap ETF,38.6,38.6,International
+,AOM,iShares Moderate Allocation ETF,38.87,38.87,Finance
+,SMLF,iShares Edge MSCIMultifactor USASmall-Cap ETF,39.16,39.16,International
+,EZU,iShares MSCI EMUETF,39.21,39.21,Finance
+,ERUS,iShares MSCIRussia ETF,39.73,39.73,International
+,DVYE,iShares Emerging Markets Dividend ETF,40.63,40.63,International
+,ECH,iShares MSCI Chile ETF,40.81,40.81,International
+,USHY,iShares Broad USD High Yield Corporate Bond ETF,40.81,40.81,Bond
+,REM,iShares Mortgage Real Estate ETF,41.56,41.56,Real Estate
+,EIRL,iShares MSCIIreland ETF,41.64,41.64,International
+,ECNS,iShares MSCIChina Small-Cap ETF,41.74,41.74,International
+,EMGF,iShares Edge MSCIMultifactor Emerging Markets ETF,41.93,41.93,International
+,BKF,iShares MSCI BRICETF,42.3,42.3,Finance
+,FXI,iShares China Large-Cap ETF,42.32,42.32,International
+,EEM,iShares MSCIEmerging Markets ETF,42.67,42.67,International
+,EWZ,iShares MSCIBrazil ETF,43.55,43.55,International
+,DVYA,iShares Asia/Pacific Dividend ETF,43.67,43.67,International
+,IEV,iShares Europe ETF,43.73,43.73,International
+,SMMD,iShares Russell 2500 ETF,44.05,44.05,Finance
+,EEMS,iShares MSCIEmerging Markets Small-Cap ETF,44.18,44.18,International
+,EWW,iShares MSCIMexico ETF,44.22,44.22,International
+,IAT,iShares U.S. Regional Banks ETF,44.75,44.75,Finance
+,CMDY,iShares Bloomberg Roll Select Commodity Strategy ETF,45.45,45.45,Finance
+,AOR,iShares Core Growth Allocation ETF,45.73,45.73,Finance
+,IGF,iShares Global Infrastructure ETF,46,46,Health
+,LEMB,iShares Emerging Markets Local Currency Bond ETF,46.02,46.02,International
+,IEUR,iShares Core MSCIEurope ETF,46.18,46.18,International
+,ACWX,iShares MSCI ACWI ex U.S. ETF,46.49,46.49,Finance
+,SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,46.63,46.63,Bond
+,EPP,iShares MSCI Pacific ex Japan ETF,46.94,46.94,International
+,EMHY,iShares Emerging Markets High Yield Bond ETF,47.48,47.48,International
+,EFV,iShares MSCI EAFE Value ETF,47.75,47.75,International
+,FOVL,iShares Focused Value Factor ETF,48.38,48.38,Finance
+,IOO,iShares Global 100 ETF,48.67,48.67,International
+,GHYG,iShares Global High Yield Corporate Bond ETF,49.12,49.12,Bond
+,IEUS,iShares MSCI Europe Small-Cap ETF,49.51,49.51,International
+,EMXC,iShares MSCI Emerging Markets ex China ETF,49.65,49.65,International
+,HYDB,iShares Edge High Yield Defensive Bond ETF,49.79,49.79,Bond
+,GNMA,iShares GNMA Bond ETF,50.03,50.03,Bond
+,SUSL,iShares ESG MSCI USALeaders ETF,50.11,50.11,Finance
+,MEAR,iShares Short Maturity Municipal Bond ETF,50.17,50.17,Bond
+,IMTB,iShares Core 5-10 Year USD Bond ETF,50.2,50.2,Bond
+,TFLO,iShares Treasury Floating Rate Bond ETF,50.3,50.3,Bond
+,NEAR,iShares Short Maturity Bond ETF,50.33,50.33,Bond
+,ISTB,iShares Core 1-5 Year USD Bond ETF,50.35,50.35,Bond
+,ICSH,iShares Ultra Short-Term Bond ETF,50.39,50.39,Bond
+,IGOV,iShares International Treasury Bond ETF,50.66,50.66,Bond
+,CEMB,iShares Emerging Markets Corporate Bond ETF,50.85,50.85,Bond
+,SLQD,iShares 0-5 Year Investment Grade Corporate Bond ETF,50.88,50.88,Bond
