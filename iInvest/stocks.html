@@ -262,230 +262,259 @@
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
-          <!-- Page Heading -->
-          <div class="row">
+          <div class = "row">
 
-          <!-- Earnings (Monthly) Card Example -->
-          <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-primary shadow h-100 py-2">
-              <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                  <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">S&P 500</div>
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">$2,941.76 (+16.84)</div>
-                  </div>
-                  <div class="col-auto">
-                    <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            <!-- Stock Tickers & Portfolio Allocation -->
+            <div class = "col-md-6 justify-content-between">
 
-          <!-- Earnings (Monthly) Card Example -->
-          <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-success shadow h-100 py-2">
-              <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                  <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">NASDAQ</div>
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">$8,006.24 (+38.49)</div>
-                  </div>
-                  <div class="col-auto">
-                    <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Earnings (Monthly) Card Example -->
-          <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-info shadow h-100 py-2">
-              <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                  <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-info text-uppercase mb-1">DOW JONES</div>
-                    <div class="row no-gutters align-items-center">
-                      <div class="col-auto">
-                        <div id = "riskScore" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">$26,599.96 (+73.38)</div>
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-12 col-md-6 mb-5">
+                  <div class="card border-left-primary shadow h-100 py-2">
+                    <div class="card-body">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                          <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">S&P 500</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-800">$2,941.76 (+16.84)</div>
+                        </div>
+                        <div class="col-auto">
+                          <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                        </div>
                       </div>
-
                     </div>
                   </div>
-                  <div class="col-auto">
-                    <i class="far fa-star fa-2x text-gray-300"></i>
+                </div>
+
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-12 col-md-6 mb-5">
+                  <div class="card border-left-success shadow h-100 py-2">
+                    <div class="card-body">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                          <div class="text-xs font-weight-bold text-success text-uppercase mb-1">NASDAQ</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-800">$8,006.24 (+38.49)</div>
+                        </div>
+                        <div class="col-auto">
+                          <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-12 col-md-6 mb-4">
+                  <div class="card border-left-info shadow h-100 py-2">
+                    <div class="card-body">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                          <div class="text-xs font-weight-bold text-info text-uppercase mb-1">DOW JONES</div>
+                          <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                              <div id = "riskScore" class="h5 mb-0 mr-3 font-weight-bold text-gray-800">$26,599.96 (+73.38)</div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <div class="col-auto">
+                          <i class="far fa-star fa-2x text-gray-300"></i>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
+
+            <div class = "col-md-6">
+              <!-- <div class="col-xl-4 col-lg-5 justify-content-center"> -->
+                <div class="card shadow mb-4">
+                  <!-- Card Header - Dropdown -->
+                  <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Portfolio Allocation</h6>
+                    <div class="dropdown no-arrow">
+                      <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                        <div class="dropdown-header">Dropdown Header:</div>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <div class="chart-pie pt-4 pb-2">
+                      <canvas id="myPieChart"></canvas>
+                    </div>
+                    <div class="mt-4 text-center small">
+                      <span class="mr-2">
+                        <!-- <i class="fas fa-circle text-primary"></i> APRN -->
+                        GICS Sectors
+                      </span>
+                      <!-- <span class="mr-2">
+                        <i class="fas fa-circle text-success"></i> WIFI
+                      </span>
+                      <span class="mr-2">
+                        <i class="fas fa-circle text-info"></i> SNAP
+                      </span> -->
+                    </div>
+                  </div>
+                </div>
+              <!-- </div> -->
+            </div>
+        </div>
+
+
+          <!-- Sector Tables -->
+
+          <div class="row justify-content-around" >
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "techLimit" class="m-0 font-weight-bold text-primary">Tech Recommendations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="techTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "financeLimit" class="m-0 font-weight-bold text-primary">Finance Recommendations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="financeTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "healthLimit" class="m-0 font-weight-bold text-primary">Health Recommendations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="healthTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
+                </div>
             </div>
           </div>
 
-          <!-- Pending Requests Card Example -->
-          <!-- <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-warning shadow h-100 py-2">
-              <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                  <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Favorite Sectors</div>
-                    <div id = "favoriteSectors" class="h5 mb-0 font-weight-bold text-gray-800">Tech, Consumer Goods</div>
-                  </div>
-                  <div class="col-auto">
-                    <i class="far fa-thumbs-down fa-2x text-gray-300"></i>
+          <div class="row justify-content-around" >
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "discretionaryTech" class="m-0 font-weight-bold text-primary">Consumer Discretionary Recommendations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="discrestionaryTable" width="100%" cellspacing="0">
+                    </table>
                   </div>
                 </div>
-              </div>
             </div>
-          </div> -->
-        </div>
 
-        <div class="row justify-content-around" >
-
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "techLimit" class="m-0 font-weight-bold text-primary">Tech Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="techTable" width="100%" cellspacing="0">
-                  </table>
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "industrialLimit" class="m-0 font-weight-bold text-primary">Industrials Recommendations</h6>
                 </div>
-              </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="industrialTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "communicationLimit" class="m-0 font-weight-bold text-primary">Communication Services Recommendations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="communicationTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
+                </div>
+            </div>
+
           </div>
 
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "financeLimit" class="m-0 font-weight-bold text-primary">Finance Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="financeTable" width="100%" cellspacing="0">
-                  </table>
+          <div class="row justify-content-around" >
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "staplesLimit" class="m-0 font-weight-bold text-primary">Consumer Staples Recommendations</h6>
                 </div>
-              </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="staplesTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "energyLimit" class="m-0 font-weight-bold text-primary">Energy Recommendations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="energyTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "materialsLimit" class="m-0 font-weight-bold text-primary">Materials Recommendations</h6>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="materialTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
+                </div>
+            </div>
+
           </div>
 
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "healthLimit" class="m-0 font-weight-bold text-primary">Health Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="healthTable" width="100%" cellspacing="0">
-                  </table>
+          <div class="row justify-content-around" >
+
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "utilitiesLimit" class="m-0 font-weight-bold text-primary">Utilities Recommendations</h6>
                 </div>
-              </div>
-          </div>
-
-        </div>
-
-        <div class="row justify-content-around" >
-
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "discretionaryTech" class="m-0 font-weight-bold text-primary">Consumer Discretionary Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="discrestionaryTable" width="100%" cellspacing="0">
-                  </table>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="utilityTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
                 </div>
-              </div>
-          </div>
+            </div>
 
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "industrialLimit" class="m-0 font-weight-bold text-primary">Industrials Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="industrialTable" width="100%" cellspacing="0">
-                  </table>
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 id = "realEstateLimit" class="m-0 font-weight-bold text-primary">Real Estate Recommendations</h6>
                 </div>
-              </div>
-          </div>
-
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "communicationLimit" class="m-0 font-weight-bold text-primary">Communication Services Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="communicationTable" width="100%" cellspacing="0">
-                  </table>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table table-bordered" id="realEstateTable" width="100%" cellspacing="0">
+                    </table>
+                  </div>
                 </div>
-              </div>
+            </div>
+
           </div>
-
-        </div>
-
-        <div class="row justify-content-around" >
-
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "staplesLimit" class="m-0 font-weight-bold text-primary">Consumer Staples Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="staplesTable" width="100%" cellspacing="0">
-                  </table>
-                </div>
-              </div>
-          </div>
-
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "energyLimit" class="m-0 font-weight-bold text-primary">Energy Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="energyTable" width="100%" cellspacing="0">
-                  </table>
-                </div>
-              </div>
-          </div>
-
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "materialsLimit" class="m-0 font-weight-bold text-primary">Materials Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="materialTable" width="100%" cellspacing="0">
-                  </table>
-                </div>
-              </div>
-          </div>
-
-        </div>
-
-        <div class="row justify-content-around" >
-
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "utilitiesLimit" class="m-0 font-weight-bold text-primary">Utilities Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="utilityTable" width="100%" cellspacing="0">
-                  </table>
-                </div>
-              </div>
-          </div>
-
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 id = "realEstateLimit" class="m-0 font-weight-bold text-primary">Real Estate Recommendations</h6>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="realEstateTable" width="100%" cellspacing="0">
-                  </table>
-                </div>
-              </div>
-          </div>
-
-        </div>
 
 
 
@@ -618,6 +647,13 @@
         window.open("http://google.com", '_blank');
       }
   </script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
 
 
 
