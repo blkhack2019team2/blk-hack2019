@@ -1,0 +1,201 @@
+Symbol	ETF Name	Asset Class	YTD	Previous Closing Price	1-Day Change	Industry 
+SLVP	iShares MSCIGlobal Silver Miners ETF	Equity	12.45%	$9.34 	-0.74%	Materials
+ICLN	iShares Global Clean Energy ETF	Equity	28.28%	$10.52 	0.19%	Energy
+ICOL	iShares MSCIColombia ETF	Equity	20.68%	$13.22 	-0.08%	International
+UAE	iShares MSCI UAEETF	Equity	0.89%	$13.34 	0.30%	International
+IAU	iShares Gold Trust	Commodity	9.68%	$13.48 	-1.03%	Materials
+SLV	iShares Silver Trust	Commodity	-1.38%	$14.32 	-0.42%	Materials
+IPFF	iShares International Preferred Stock ETF	Preferred Stock	1.66%	$15.05 	0.47%	International
+GSG	iShares S&P GSCICommodity-Indexed Trust	Commodity	13.27%	$15.88 	1.34%	International
+EWZS	iShares MSCI Brazil Small-Cap ETF	Equity	16.49%	$16.58 	0.12%	International
+HEWW	iShares Currency Hedged MSCIMexico ETF	Equity	3.71%	$16.86 	0.18%	International
+HEWI	iShares Currency Hedged MSCI Italy ETF	Equity	19.69%	$17.20 	-0.17%	International
+QAT	iShares MSCI Qatar ETF	Equity	-0.12%	$17.85 	0.45	International
+EUFN	iShares MSCIEurope Financials ETF	Equity	10.38%	$17.99 	0.62%	International
+EWK	iShares MSCIBelgium ETF	Equity	12.55%	$18.04 	-0.33%	International
+EWO	iShares MSCIAustria ETF	Equity	10.00%	$19.66 	1.08%	International
+FILL	iShares MSCIGlobal Energy Producers ETF	Equity	11.11%	$20.22 	1.15%	Energy
+RING	iShares MSCIGlobal Gold Miners ETF	Equity	26.49%	$20.36 	-0.24%	Industrial 
+IEZ	iShares U.S. Oil Equipment & Services ETF	Equity	5.54%	$21.34 	2.15%	Energy
+HEWP	iShares Currency Hedged MSCI Spain ETF	Equity	11.92%	$21.82 	-0.05%	International
+EWA	iShares MSCI-Australia ETF	Equity	18.93%	$22.44 	0.40%	International
+IVLU	iShares Edge MSCIIntl Value Factor ETF	Equity	6.54%	$22.80 	0.09%	Finance
+TUR	iShares MSCITurkey ETF	Equity	-2.17%	$23.41 	0.09%	International
+EPOL	iShares MSCIPoland ETF	Equity	2.30%	$23.52 	0.60%	International
+IEFN	iShares Evolved U.S. Financials ETF	Equity	16.93%	$23.57 	-0.17%	Finance
+IDRV	iShares Self-Driving EV and Tech ETF	Equity	N/A	$23.74 	0.98%	Technology
+EWJV	iShares MSCI Japan Value ETF	Equity	N/A	$24.19 	-0.33%	International
+HEWU	iShares Currency Hedged MSCI United Kingdom ETF	Equity	14.18%	$24.34 	0.12%	International
+IRBO	iShares Robotics and Artificial Intelligence ETF	Equity	21.30%	$24.35 	0.95%	Technology
+EWS	iShares MSCI Singapore ETF	Equity	12.54%	$24.40 	0.62%	International
+IGBH	iShares Interest Rate Hedged Long-Term Corporate Bond ETF	Bond	3.70%	$24.43 	0.16%	Bond
+IBCE	iShares iBonds Mar 2023 Corporate ex-Financials ETF	Bond	4.94%	$24.45 	-0.16%	Bond
+ENOR	iShares MSCI Norway ETF	Equity	9.11%	$24.48 	0.87%	International
+IBCD	iShares iBonds Mar 2020 Corporate ex-Financials ETF	Bond	1.69%	$24.59 	-0.04%	Bond
+IBDK	iShares iBonds Dec 2019 Term Corporate ETF	Bond	1.22%	$24.86 	0.04%	Bond
+IBDR	iShares iBonds Dec 2026 Term Corporate ETF	Bond	9.68%	$24.89 	-0.32%	Bond
+IBDM	iShares iBonds Dec 2021 Corporate ETF	Bond	3.45%	$24.91 	-0.04%	Bond
+EMBH	iShares Interest Rate Hedged Emerging Markets Bond ETF	Bond	4.80%	$24.93 	0.61%	International
+IYLD	iShares Morningstar Multi-Asset Income Index ETF	Multi-Asset	9.24%	$24.97 	0.00%	Finance
+IEIH	iShares Evolved U.S. Innovative Healthcare ETF	Equity	7.22%	$25.08 	-1.18%	Health
+IBHA	iShares iBonds 2021 Term High Yield and Income ETF	Bond	N/A	$25.10 	-0.04%	Finance
+IHAK	iShares Cybersecurity and Tech ETF	Equity	N/A	$25.12 	-0.12%	Technology
+IBHC	iShares iBonds 2023 Term High Yield and Income ETF	Bond	N/A	$25.14 	0.00%	Bond
+IBHB	iShares iBonds 2022 Term High Yield and Income ETF	Bond	N/A	$25.15 	0.08%	Bond
+BYLD	iShares Yield Optimized Bond ETF	Bond	8.37%	$25.18 	-0.12%	Bond
+IBDN	iShares iBonds Dec 2022 Corporate ETF	Bond	5.51%	$25.19 	-0.08%	Bond
+IBDS	iShares iBonds Dec 2027 Term Corporate ETF	Bond	9.70%	$25.27 	-0.55%	Bond
+IBHE	iShares iBonds 2025 Term High Yield and Income ETF	Bond	N/A	$25.27 	-0.04%	Bond
+SUSB	iShares ESG 1-5 Year USDCorporate Bond ETF	Bond	4.78%	$25.31 	-0.12%	Bond
+IBDL	iShares iBonds Dec 2020 Corporate ETF	Bond	2.52%	$25.33 	0.00%	Bond
+IBDO	iShares iBonds Dec 2023 Corporate ETF	Bond	6.16%	$25.34 	-0.31%	Bond
+BDP	iShares iBonds Dec 2024 Corporate ETF	Bond	7.57%	$25.35 	-0.31%	Bond
+IBHD	iShares iBonds 2024 Term High Yield and Income ETF	Bond	N/A	$25.36 	0.04%	Bond
+IBMH	iShares iBonds Sep 2019 Term Muni Bond ETF	Bond	0.73%	$25.44 	0.00%	Bond
+HEEM	iShares Currency Hedged MSCI Emerging Markets ETF	Equity	10.46%	$25.44 	0.91%	International
+EUMV	iShares Edge MSCI Min Vol Europe ETF	Equity	13.72%	$25.45 	-0.47%	International
+IBDQ	iShares iBonds Dec 2025 Corporate ETF	Bond	9.52%	$25.48 	-0.31%	Bond
+IBMI	iShares iBonds Sep 2020 AMT-Free Muni Bond ETF	Bond	1.27%	$25.56 	0.08%	Bond
+EIDO	iShares MSCI Indonesia ETF	Equity	4.89%	$25.61 	0.04%	International
+IBMO	iShares iBonds Dec 2026 Term Muni Bond ETF	Bond	N/A	$25.62 	0.00%	Bond
+HEWY	iShares Currency Hedged MSCI South Korea ETF	Equity	6.30%	$25.64 	0.83%	International
+IBMP	iShares iBonds Dec 2027 Term Muni Bond ETF	Bond	N/A	$25.65 	-0.08%	Bond
+SUSC	iShares ESG USDCorporate Bond ETF	Bond	9.14%	$25.68 	-0.12%	Bond
+IBML	iShares iBonds Dec 2023 Term Muni Bond ETF	Bond	3.11%	$25.70 	0.04%	Bond
+EWH	iShares MSCI Hong Kong ETF	Equity	16.09%	$25.73 	0.63%	International
+GOVT	iShares U.S. Treasury Bond ETF	Bond	5.35%	$25.74 	-0.27%	Bond
+LQDI	iShares Inflation Hedged Corporate Bond ETF	Bond	9.37%	$25.74 	-1.11%	Bond
+IBMQ	iShares iBonds Dec 2028 Term Muni Bond ETF	Bond	N/A	$25.75 	-0.04%	Bond
+IBMJ	iShares iBonds Dec 2021 AMT-Free Muni Bond ETF	Bond	1.93%	$25.78 	0.04%	Bond
+DYNF	BlackRock U.S. Equity Factor Rotation ETF	Equity	N/A	$25.87 	-0.39%	Finance
+IDNA	iShares Genomics Immunology and Healthcare ETF	Equity	N/A	$25.95 	-0.88%	Health
+INTF	iShares Edge MSCIMultifactor Intl ETF	Equity	12.10%	$26.02 	0.39%	Finance
+ISZE	iShares Edge MSCI Intl Size Factor ETF	Equity	11.88%	$26.07 	0.04%	Finance
+IBMK	iShares iBonds Dec 2022 AMT-Free Muni Bond ETF	Bond	2.51%	$26.09 	-0.08%	Bond
+IBDC	iShares iBonds Mar 2020 Corporate ETF	Bond	1.62%	$26.10 	0.00%	Bond
+ESML	iShares ESG MSCI USASmall-Cap ETF	Equity	16.20%	$26.19 	-0.15%	Finance
+BMM	iShares iBonds Dec 2024 Term Muni Bond ETF	Bond	3.91%	$26.24 	-0.08%	Bond
+MIDF	iShares Edge MSCIMultifactor USA Mid-Cap ETF	Equity	N/A	$26.32 	-0.15%	Finance
+HEWC	iShares Currency Hedged MSCI Canada ETF	Equity	15.87%	$26.41 	-0.49%	International
+REET	iShares Global REIT ETF	Real Estate	15.22%	$26.45 	-1.53%	Real Estate
+FALN	iShares U.S. Fallen Angels USD Bond ETF	Bond	11.22%	$26.50 	0.04%	Bond
+HAUD	iShares Currency Hedged MSCI Australia ETF	Equity	20.59%	$26.54 	-0.04%	International
+IBDD	iShares iBonds Mar 2023 Corporate ETF	Bond	5.45%	$26.67 	-0.19%	Bond
+IFRA	iShares U.S. Infrastructure ETF	Equity	16.97%	$26.67 	-0.11%	Health
+DEWJ	iShares Adaptive Currency Hedged MSCIJapan ETF	Equity	8.10%	$26.78 	0.04%	International
+IECS	iShares Evolved U.S. Consumer Staples ETF	Equity	17.53%	$26.78 	-1.33%	Consumer Staples
+HAWX	iShares Currency Hedged MSCI ACWI ex U.S. ETF	Equity	13.56%	$26.89 	0.34%	Finance
+IBMN	iShares iBonds Dec 2025 Term Muni Bond ETF	Bond	4.82%	$26.89 	-0.04%	Bond
+IBDT	iShares iBonds Dec 2028 Term Corporate ETF	Bond	9.99%	$26.95 	-0.33%	Bond
+HJPX	iShares Currency Hedged JPX-Nikkei 400 ETF	Equity	6.75%	$26.97 	0.41%	International
+AGT	iShares MSCI Argentina and Global Exposure ETF	Equity	35.72%	$27.08 	-0.70%	International
+IEME	iShares Evolved U.S. Media and Entertainment ETF	Equity	18.01%	$27.09 	-0.33%	Consumer Discretionary
+HEWG	iShares Currency Hedged MSCI Germany ETF	Equity	14.69%	$27.24 	0.48%	International
+EWI	iShares MSCI Italy ETF	Equity	16.77%	$27.32 	-0.29%	International
+DIVB	iShares U.S. Dividend and Buyback ETF	Equity	17.48%	$27.48 	0.18%	Finance
+EWG	iShares MSCI Germany ETF	Equity	12.09%	$27.66 	0.44%	International
+AMCA	iShares Russell 1000 Pure U.S. Revenue ETF	Equity	13.74%	$27.88 	-0.61%	Finance
+DEZU	iShares Adaptive Currency Hedged MSCIEurozone ETF	Equity	16.35%	$28.00 	0.29%	International
+DEFA	iShares Adaptive Currency Hedged MSCIEAFE ETF	Equity	14.15%	$28.06 	0.21%	International
+VEGI	iShares MSCI Global Agriculture Producers ETF	Equity	9.43%	$28.17 	0.25%	Industrials
+CNYA	iShares MSCI China A ETF	Equity	25.03%	$28.24 	1.00%	International
+EWC	iShares MSCI Canada ETF	Equity	19.89%	$28.47 	0.11%	International
+HSCZ	iShares Currency Hedged MSCI EAFESmall Cap ETF	Equity	12.94%	$28.47 	0.11%	International
+ISCF	iShares Edge MSCIMultifactor Intl Small-Cap ETF	Equity	12.59%	$28.72 	-0.10%	Finance
+IEDI	iShares Evolved U.S. Discretionary Spending ETF	Equity	18.46%	$28.73 	0.17%	Consumer Discretionary
+IEHS	iShares Evolved U.S. Healthcare Staples ETF	Equity	10.16%	$28.74 	-1.17%	Health
+EWP	iShares MSCI Spain ETF	Equity	8.91%	$28.81 	-0.10%	International
+IETC	iShares Evolved U.S. Technology ETF	Equity	25.46%	$28.81 	0.49%	Technology
+ACWF	iShares Edge MSCIMultifactor Global ETF	Equity	12.47%	$28.88 	0.10%	International
+EMIF	iShares Emerging Markets Infrastructure ETF	Equity	6.65%	$29.09 	-0.10%	International
+HEWL	iShares Currency Hedged MSCISwitzerland ETF	Equity	21.67%	$29.21 	-0.14%	International
+IYZ	iShares U.S. Telecommunications ETF	Equity	12.59%	$29.32 	-0.10%	Telecommunications
+FM	iShares MSCI Frontier 100 ETF	Equity	15.73%	$29.46 	0.17%	Finance
+IMTM	iShares Edge MSCI Intl Momentum Factor ETF	Equity	17.29%	$29.56 	-0.14%	International
+HEFA	iShares Currency Hedged MSCI EAFE ETF	Equity	14.72%	$29.61 	0.24%	International
+EWM	iShares MSCI Malaysia ETF	Equity	1.59%	$29.71 	0.03%	International
+IFGL	iShares International Developed Real Estate ETF	Real Estate	12.58%	$29.86 	-0.57%	Real Estate
+IQLT	iShares Edge MSCI Intl Quality Factor ETF	Equity	18.05%	$29.99 	0.33%	Finance
+HEWJ	iShares Currency Hedged MSCI Japan ETF	Equity	6.98%	$30.05 	0.43%	International
+PICK	iShares MSCI Global Select Metals & Mining Producers ETF	Equity	15.29%	$30.17 	1.17%	Industrials
+EWQ	iShares MSCI France ETF	Equity	17.47%	$30.40 	-0.13%	International
+IDV	iShares International Select Dividend ETF	Equity	9.74%	$30.44 	0.40%	Finance
+IGE	iShares North American Natural Resources ETF	Equity	13.39%	$30.44 	1.26%	Utilities
+HEZU	iShares Currency Hedged MSCI Eurozone ETF	Equity	17.39%	$30.45 	0.20%	International
+EWN	iShares MSCINetherlands ETF	Equity	18.80%	$30.50 	0.43%	International
+EWD	iShares MSCI Sweden ETF	Equity	12.21%	$30.71 	0.49%	International
+LRGF	iShares Edge MSCIMultifactor USA ETF	Equity	13.26%	$31.30 	0.13%	Finance
+EWU	iShares MSCI United Kingdom ETF	Equity	12.33%	$32.15 	0.09%	International
+IXC	iShares Global Energy ETF	Equity	12.89%	$32.43 	1.06%	Energy
+KSA	iShares MSCI Saudi Arabia ETF	Equity	13.84%	$32.60 	0.80%	International
+EWJE	iShares MSCI Japan Equal Weighted ETF	Equity	N/A	$32.74 	-1.56%	International
+SMMV	iShares Edge MSCIMin Vol USA Small-Cap ETF	Equity	13.73%	$32.83 	-0.55%	Finance
+COMT	iShares Commodities Select Strategy ETF	Multi-Asset	7.81%	$32.87 	0.74%	Finance
+ESGE	iShares ESG MSCI EM ETF	Equity	11.31%	$33.87 	0.86%	Finance
+ILF	iShares Latin American 40 ETF	Equity	11.90%	$33.99 	0.77%	International
+IYE	iShares U.S. Energy ETF	Equity	11.70%	$34.27 	1.66%	Energy
+EWT	iShares MSCI Taiwan ETF	Equity	9.65%	$34.67 	0.29%	International
+AOK	iShares Core Conservative Allocation ETF	Multi-Asset	8.73%	$35.23 	-0.14%	Finance
+INDA	iShares MSCI India ETF	Equity	6.93%	$35.33 	1.00%	International
+EPHE	iShares MSCIPhilippines ETF	Equity	13.00%	$35.78 	0.34%	International
+IFEU	iShares Europe Developed Real Estate ETF	Real Estate	7.02%	$35.92 	-1.48%	Real Estate
+AXJV	iShares Edge MSCIMin Vol Asia ex Japan ETF	Equity	8.95%	$35.95 	0.59%	International
+PFF	iShares Preferred and Income Securities ETF	Preferred Stock	10.12%	$36.81 	-0.14%	Finance
+EPU	iShares MSCI Peru ETF	Equity	6.19%	$37.01 	0.82%	International
+ITB	iShares U.S. Home Construction ETF	Equity	23.72%	$37.05 	-0.32%	Utilities
+EWL	iShares MSCISwitzerland ETF	Equity	20.72%	$37.29 	-0.29%	International
+EFNL	iShares MSCI Finland ETF	Equity	9.79%	$37.47 	1.05%	International
+EWUS	iShares MSCI United Kingdom Small-Cap ETF	Equity	12.83%	$37.55 	-0.24%	International
+DGRO	iShares Core Dividend Growth ETF	Equity	15.41%	$37.84 	-0.13%	Finance
+WPS	iShares International Property ETF	Real Estate	12.60%	$38.07 	-0.50%	Real Estate
+XT	iShares Exponential Technologies ETF	Equity	15.62%	$38.09 	0.29%	Technology
+NDY	iShares India 50 ETF	Equity	9.81%	$38.56 	1.18%	International
+SMIN	iShares MSCI India Small-Cap ETF	Equity	0.63%	$38.60 	1.58%	International
+AOM	iShares Moderate Allocation ETF	Multi-Asset	9.55%	$38.87 	-0.08%	Finance
+SMLF	iShares Edge MSCIMultifactor USASmall-Cap ETF	Equity	10.02%	$39.16 	-0.28%	International
+EZU	iShares MSCI EMUETF	Equity	14.82%	$39.21 	0.20%	Finance
+ERUS	iShares MSCIRussia ETF	Equity	31.17%	$39.73 	1.20%	International
+DVYE	iShares Emerging Markets Dividend ETF	Equity	11.82%	$40.63 	0.82%	International
+ECH	iShares MSCI Chile ETF	Equity	0.43%	$40.81 	0.32%	International
+USHY	iShares Broad USD High Yield Corporate Bond ETF	Bond	9.60%	$40.81 	0.00%	Bond
+REM	iShares Mortgage Real Estate ETF	Real Estate	8.47%	$41.56 	-0.31%	Real Estate
+EIRL	iShares MSCIIreland ETF	Equity	14.00%	$41.64 	0.39%	International
+ECNS	iShares MSCIChina Small-Cap ETF	Equity	8.60%	$41.74 	1.09%	International
+EMGF	iShares Edge MSCIMultifactor Emerging Markets ETF	Equity	9.47%	$41.93 	1.45%	International
+BKF	iShares MSCI BRICETF	Equity	13.43%	$42.30 	1.15%	Finance
+FXI	iShares China Large-Cap ETF	Equity	9.38%	$42.32 	1.20%	International
+EEM	iShares MSCIEmerging Markets ETF	Equity	10.07%	$42.67 	0.95%	International
+EWZ	iShares MSCIBrazil ETF	Equity	15.45%	$43.55 	0.81%	International
+DVYA	iShares Asia/Pacific Dividend ETF	Equity	11.53%	$43.67 	0.11%	International
+IEV	iShares Europe ETF	Equity	14.73%	$43.73 	0.00%	International
+SMMD	iShares Russell 2500 ETF	Equity	16.09%	$44.05 	-0.25%	Finance
+EEMS	iShares MSCIEmerging Markets Small-Cap ETF	Equity	6.52%	$44.18 	0.52%	International
+EWW	iShares MSCIMexico ETF	Equity	9.55%	$44.22 	0.59%	International
+IAT	iShares U.S. Regional Banks ETF	Equity	13.57%	$44.75 	0.34%	Finance
+CMDY	iShares Bloomberg Roll Select Commodity Strategy ETF	Commodity	3.41%	$45.45 	0.29%	Finance
+AOR	iShares Core Growth Allocation ETF	Multi-Asset	11.19%	$45.73 	0.02%	Finance
+IGF	iShares Global Infrastructure ETF	Equity	18.82%	$46.00 	-0.65%	Health
+LEMB	iShares Emerging Markets Local Currency Bond ETF	Bond	6.82%	$46.02 	0.41%	International
+IEUR	iShares Core MSCIEurope ETF	Equity	14.77%	$46.18 	0.00%	International
+ACWX	iShares MSCI ACWI ex U.S. ETF	Equity	12.72%	$46.49 	0.35%	Finance
+SHYG	iShares 0-5 Year High Yield Corporate Bond ETF	Bond	7.02%	$46.63 	0.04%	Bond
+EPP	iShares MSCI Pacific ex Japan ETF	Equity	17.47%	$46.94 	0.54%	International
+EMHY	iShares Emerging Markets High Yield Bond ETF	Bond	9.58%	$47.48 	-0.02%	International
+EFV	iShares MSCI EAFE Value ETF	Equity	8.70%	$47.75 	0.36%	International
+FOVL	iShares Focused Value Factor ETF	Equity	N/A	$48.38 	0.23%	Finance
+IOO	iShares Global 100 ETF	Equity	16.34%	$48.67 	0.08%	International
+GHYG	iShares Global High Yield Corporate Bond ETF	Bond	9.03%	$49.12 	-0.22%	Bond
+IEUS	iShares MSCI Europe Small-Cap ETF	Equity	13.97%	$49.51 	0.08%	International
+EMXC	iShares MSCI Emerging Markets ex China ETF	Equity	9.08%	$49.65 	0.14%	International
+HYDB	iShares Edge High Yield Defensive Bond ETF	Bond	10.27%	$49.79 	0.00%	Bond
+GNMA	iShares GNMA Bond ETF	Bond	4.07%	$50.03 	0.02%	Bond
+SUSL	iShares ESG MSCI USALeaders ETF	Equity	N/A	$50.11 	-1.22%	Finance
+MEAR	iShares Short Maturity Municipal Bond ETF	Bond	1.15%	$50.17 	0.02%	Bond
+IMTB	iShares Core 5-10 Year USD Bond ETF	Bond	5.96%	$50.20 	-0.20%	Bond
+TFLO	iShares Treasury Floating Rate Bond ETF	Bond	1.00%	$50.30 	0.00%	Bond
+NEAR	iShares Short Maturity Bond ETF	Bond	2.15%	$50.33 	0.00%	Bond
+ISTB	iShares Core 1-5 Year USD Bond ETF	Bond	3.86%	$50.35 	-0.18%	Bond
+ICSH	iShares Ultra Short-Term Bond ETF	Bond	1.82%	$50.39 	0.00%	Bond
+IGOV	iShares International Treasury Bond ETF	Bond	4.52%	$50.66 	-0.22%	Bond
+CEMB	iShares Emerging Markets Corporate Bond ETF	Bond	9.13%	$50.85 	0.10%	Bond
+SLQD	iShares 0-5 Year Investment Grade Corporate Bond ETF	Bond	3.98%	$50.88 	-0.06%	Bond
